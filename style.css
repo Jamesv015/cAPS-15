@@ -1,0 +1,296 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body {
+   background-image: url("bg/background.gif");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+}
+
+.navbar {
+   background-color: black;
+   font-family: 'Mochiy Pop One', sans-serif;
+   padding: 1rem;
+}
+
+.navdiv {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.home a{
+   font-size: 30px;
+   font-weight: 600;
+   color: teal;
+}
+
+li {
+   list-style: none;
+   display: inline-block;
+}
+
+li a {
+   font-family: 'Mochiy Pop One', sans-serif;
+   font-weight: bold;
+   color: white;
+   font-size: 11px;
+   margin-right: 10px;
+}
+
+li a:hover{
+   color: teal;
+}
+
+.home #h:hover {
+   color: white;
+}
+
+/*for content*/
+
+/*Home*/
+.name {
+   font-family: 'Bubblegum Sans', sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+   color: azure;
+   font-size: 2rem;
+   padding: 15%;
+}
+
+#box-icon {
+   font-size: 45px;
+   color: white;
+}
+
+.name #double {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   color: whitesmoke;
+}
+
+.name #website {
+   color: red;
+}
+
+.name #names {
+   background-image: url('bg/BG-text.gif');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Mochiy Pop One', sans-serif;
+   font-size: 3rem;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+.name #welcome {
+   color: teal;
+   text-align: center;
+}
+
+#box-icon:hover {
+   color: teal;
+}
+
+
+/*Personal Details*/
+
+h5 {
+   font-family: 'Bubblegum Sans', sans-serif;
+   color: aquamarine;
+   text-align: center;
+   font-size: 3rem;
+   padding: 3%;
+}
+
+table, td{
+   background-color: slategrey;
+   box-shadow: 2px 2px 2px teal;
+   border: 3px solid black;
+   font-size: 1.2rem;
+   margin-left: auto;
+   margin-right: auto;
+   border-spacing: 5px;
+   padding: 30px;
+}
+
+#img {
+   width: 100%;
+   height: 100px;
+}
+
+hr {
+   border-top: solid teal;
+   width: 100%;
+}
+
+
+/*Education*/
+
+.Education {
+   background-color: slategrey;
+   box-shadow: 2px 2px 2px teal;
+   border: 3px solid black;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 50px;
+}
+
+.h2-text {
+   color: white;
+   text-shadow: 3px 3px 3px teal;
+   text-align: center;
+   font-size: 1rem;
+}
+
+.education-text {
+   text-align: center;
+   font-size: 1.1rem;
+}
+
+/*Seminars*/
+
+.seminars {
+   text-align: center;
+}
+
+.Caption1 {
+   color: white;
+   text-shadow: 3px 3px 3px teal;
+   font-size: 1.5rem;
+}
+
+#imgg-1 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+#imgg-2 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+#imgg-3 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+#imgg-4 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+/* Project */
+
+.Projects {
+   text-align: center;
+}
+
+.Caption2 {
+   color: white;
+   text-shadow: 3px 3px 3px teal;
+   font-size: 1.5rem;
+}
+
+#img-1 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+#img-2 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+
+/*Certificates*/
+
+.Certificates {
+   text-align: center;
+}
+
+.Caption3 {
+   color: white;
+   text-shadow: 3px 3px 3px teal;
+   font-size: 1.5rem;
+}
+
+#img-01 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+#img-02 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+#img-03 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+/*Organization*/
+
+.Organization {
+   text-align: center;
+}
+
+.Caption4 {
+   color: white;
+   text-shadow: 3px 3px 3px teal;
+   font-size: 1.5rem;
+}
+
+#image-1 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
+
+/*Work Experience*/
+
+.Work-Experience {
+   text-align: center;
+}
+
+.Caption5 {
+   color: white;
+   text-shadow: 3px 3px 3px teal;
+   font-size: 1.5rem;
+}
+
+#Images-1 {
+   background-color: teal;
+   border: 5px solid black;
+   padding: 5px;
+   width: 50%;
+}
